@@ -1,0 +1,106 @@
+.blackbg {
+  background: $black;
+  color: $white;
+  padding: 60px 0;
+  h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0 0 30px;
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: $line-height;
+    margin: 0 0 15px;
+  }
+  .zLogo {
+    background: $white;
+  }
+}
+
+.glassdoor {
+  padding: 60px 0;
+  h2 {
+    color: $red;
+    font-size: 45px;
+    font-weight: 500;
+    @media (max-width: 767px) {
+      font-size: 30px;
+      padding: 0 10px;
+    }
+  }
+  a {
+    margin: 20px 0;
+    background: $green;
+    color: $white;
+    padding: 12px 24px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+}
+
+.aboutus {
+  padding: 40px 0;
+}
+
+.position {
+  text-align: center;
+  background-color: $bg-color1;
+  padding: 60px 0;
+  h2 {
+    color: $red;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+  }
+  h5 {
+    font-size: 27px;
+    color: $black;
+    font-weight: 500;
+    margin: 0 0 30px;
+  }
+}
+.open {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 170px;
+  grid-row-gap: 50px;
+  li {
+    text-align: left;
+    h3 {
+      font-size: 40px;
+      text-transform: capitalize;
+      color: $red;
+      margin: 0 0 30px;
+    }
+    p {
+      color: $paragraph-color;
+      font-size: 16px;
+      line-height: $line-height;
+      margin: 0 0 30px;
+    }
+    button {
+      background: $red;
+      color: $white;
+      border: none;
+      padding: 10px 15px;
+    }
+  }
+}
+
+.joinNow {
+  padding: 60px 0;
+  color: #fff;
+  background: linear-gradient(98deg, $red 0%, $black 100%);
+  button {
+    background: $white;
+    color: $red;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

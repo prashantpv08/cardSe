@@ -1,0 +1,30 @@
+.navbar {
+  margin: 0 30px 0 0;
+  a {
+    font-family: $nav-font;
+  }
+}
+
+.download {
+  background: $red !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  text-transform: uppercase;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+
+.sticky {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .download {
+    order: -1;
+  }
+}
