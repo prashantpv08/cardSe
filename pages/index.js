@@ -136,10 +136,7 @@ const HomePage = () => {
           <Row className="align-items-center">
             <Col md={5}>
               <div className={styles.banText}>
-                <h2>
-                  Accept all Debit, Credit, Prepaid Card and UPI Payments on
-                  Phone
-                </h2>
+                <h2>Accept Card Payments on your Phone</h2>
                 <h5>
                   Join our network of over 250k merchants who are <br /> using
                   CardSe SoftPOS
@@ -386,7 +383,7 @@ const HomePage = () => {
           <Row>
             <Col lg={4}>
               <div className={styles.box}>
-                <CountUp end={220000} />
+                <CountUp end={250000} />
                 <span>+</span>
                 <h4>TRUSTED MERCHANTS</h4>
                 <p>
@@ -473,7 +470,7 @@ const HomePage = () => {
               <h2>MERCHANTS</h2>
               <h6>Join the CardSe family</h6>
               <p>
-                Transform how you accept payments. Boasts of over 2000+
+                Transform how you accept payments. Boasts of over 250000+
                 merchants and is expanding rapidly
               </p>
             </div>
@@ -524,7 +521,7 @@ const HomePage = () => {
               <p>
                 Superb App. It provides me full transparency of my Business,
                 with so many features to boost up my Business. I&apos;m happy
-                Merchant of CardsPe app.
+                Merchant of CardSe app.
               </p>
               <div className={styles.reviewerInfo}></div>
             </div>
@@ -615,18 +612,24 @@ const HomePage = () => {
               </p>
               <p>
                 <a
-                  href="mailto:support@cards.pe"
+                  href="mailto:support@cardse.co"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  support@cards.pe
+                  support@cardse.co
                 </a>{" "}
                 for further assistance.
               </p>
             </div>
             <div>
               <Button>Need Help</Button>
-              <Button>Contact Us</Button>
+              <Button
+                className={styles.contactButton}
+                as="a"
+                href="tel:011-49898545"
+              >
+                Contact Us
+              </Button>
             </div>
           </div>
         </Container>

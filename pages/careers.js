@@ -160,7 +160,7 @@ const Careers = () => {
                 onboarding and scale revenue to the next level. The incumbent
                 will be responsible for not only adding new merchants to our
                 network, but also to nurture and grow them and also ensure an
-                increase of market share of CardsPe in the offline business. In
+                increase of market share of CardSe in the offline business. In
                 addition, the incumbent will be expected to generate revenue
                 through multiple products launched as we move forward in our
                 journey. The ideal candidate will be responsible architecting a
@@ -191,10 +191,10 @@ const Careers = () => {
               <h3>FIELD SALES EXECUTIVES</h3>
               <p>
                 We are looking for a Field Sales Executives who can drive
-                merchant onboarding to the next level for CardsPe App. The
-                person will be responsible for not only adding new merchants to
-                our network, but also nurture and grow them and also ensure an
-                increase of market share of CardsPe in the offline business and
+                merchant onboarding to the next level for CardSe App. The person
+                will be responsible for not only adding new merchants to our
+                network, but also nurture and grow them and also ensure an
+                increase of market share of CardSe in the offline business and
                 geographies.
               </p>
               <Button>Download JD</Button>
@@ -212,15 +212,21 @@ const Careers = () => {
               <p>
                 Email us with your resume at{" "}
                 <a
-                  href="mailto:hiring@cards.pe"
+                  href="mailto:hiring@cardse.co"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  hiring@cards.pe
+                  hiring@cardse.co
                 </a>
               </p>
             </div>
-            <Button>Contact Us</Button>
+            <Button
+              className={styles.contactButton}
+              as="a"
+              href="tel:011-49898545"
+            >
+              Contact Us
+            </Button>
           </div>
         </Container>
       </div>

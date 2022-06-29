@@ -98,7 +98,7 @@ const faqs = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="9">
             <Accordion.Header>
-              KYC mandatory for doing transactions through CardsPe?
+              Is KYC mandatory for accepting card payments on CardSe?
             </Accordion.Header>
             <Accordion.Body>Yes</Accordion.Body>
           </Accordion.Item>
@@ -136,7 +136,7 @@ const faqs = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="13">
             <Accordion.Header>
-              Is there any monthly or annual maintenance fee charged by cardsPe?
+              Is there any monthly or annual maintenance fee charged by CardSe?
             </Accordion.Header>
             <Accordion.Body>
               There is no maintenance fee charged by CardSe, we only have
@@ -162,7 +162,7 @@ const faqs = () => {
           <Accordion.Item eventKey="15">
             <Accordion.Header>
               Is there any daily or monthly limit for doing transaction through
-              CardsPe ?
+              CardSe ?
             </Accordion.Header>
             <Accordion.Body>
               Before KYC – Single transaction Limit– Rs. 5000 per transaction;

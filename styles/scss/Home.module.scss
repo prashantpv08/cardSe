@@ -373,7 +373,8 @@
       font-weight: 700;
     }
   }
-  button {
+  button,
+  .contactButton {
     background: $white;
     color: $red;
     border: none;
@@ -385,9 +386,9 @@
     letter-spacing: 0.5px;
     border-radius: 4px;
     font-weight: 600;
-    &:nth-last-of-type(1) {
-      margin: 0;
-    }
+  }
+  a.contactButton {
+    margin: 0;
   }
 }
 
