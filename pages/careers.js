@@ -124,7 +124,7 @@ const Careers = () => {
           <h5>We’re Building A Culture Of Curiosity And Learning. You In?</h5>
           <ul className={`${styles.open} d-grid`}>
             <li>
-              <h3>SENIOR IOS DEVELOPER</h3>
+              <h3>iOS Developer</h3>
               <p>
                 As an iOS Developer, you will work closely with the backend
                 development team and will support the front end teams to develop
@@ -223,7 +223,7 @@ const Careers = () => {
             <Button
               className={styles.contactButton}
               as="a"
-              href="tel:011-49898545"
+              href="tel:+91-9513631546"
             >
               Contact Us
             </Button>

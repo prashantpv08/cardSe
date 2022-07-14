@@ -12,6 +12,7 @@ import {
   faHandHoldingDollar,
 } from "@fortawesome/free-solid-svg-icons";
 import CountUp from "react-countup";
+import { useRouter } from "next/router";
 
 //images
 import Banner from "../public/banner.png";
@@ -126,6 +127,11 @@ const investSettings = {
 };
 
 const HomePage = () => {
+  const router = useRouter();
+  const redirect = () => {
+    router.push("/faqs");
+  };
+
   return (
     <>
       <Head>
@@ -162,6 +168,11 @@ const HomePage = () => {
                 <Image src={Banner} width={506} height={650} alt="Banner" />
               </span>
             </Col>
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
           </Row>
         </div>
         <div className={styles.howitworks}>
@@ -497,6 +508,12 @@ const HomePage = () => {
           </Col>
         </Row>
 
+        <Row className={styles.mediacoverage}>
+          <h2>
+            Media <span>Coverage</span>
+          </h2>
+        </Row>
+
         <Row className={`${styles.media} px-2 px-md-0`}>
           <h2>
             <span>Investors &</span> Incubators
@@ -617,16 +634,16 @@ const HomePage = () => {
                   rel="noreferrer"
                 >
                   support@cardse.co
-                </a>{" "}
+                </a>
                 for further assistance.
               </p>
             </div>
             <div>
-              <Button>Need Help</Button>
+              <Button onClick={() => redirect()}>Need Help</Button>
               <Button
                 className={styles.contactButton}
                 as="a"
-                href="tel:011-49898545"
+                href="tel:+91-9513631546"
               >
                 Contact Us
               </Button>
