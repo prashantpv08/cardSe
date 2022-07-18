@@ -136,7 +136,14 @@ const Careers = () => {
                 release plans, and achieve release goals including but not
                 limited to performance, functional completeness and security.
               </p>
-              <Button>Download JD</Button>
+              <Button
+                as="a"
+                target="_blank"
+                href="../../constant/JobDescripton/iOS_Developer.docx"
+                download
+              >
+                Download JD
+              </Button>
             </li>
             <li>
               <h3>SENIOR FULL STACK DEVELOPER</h3>

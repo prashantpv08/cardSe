@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import CountUp from "react-countup";
 import { useRouter } from "next/router";
+import Media from "../components/Media";
 
 //images
 import Banner from "../public/banner.png";
@@ -168,10 +169,10 @@ const HomePage = () => {
                 <Image src={Banner} width={506} height={650} alt="Banner" />
               </span>
             </Col>
-            <svg class="arrows">
-              <path class="a1" d="M0 0 L30 32 L60 0"></path>
-              <path class="a2" d="M0 20 L30 52 L60 20"></path>
-              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            <svg className="arrows">
+              <path className="a1" d="M0 0 L30 32 L60 0"></path>
+              <path className="a2" d="M0 20 L30 52 L60 20"></path>
+              <path className="a3" d="M0 40 L30 72 L60 40"></path>
             </svg>
           </Row>
         </div>
@@ -509,9 +510,13 @@ const HomePage = () => {
         </Row>
 
         <Row className={styles.mediacoverage}>
-          <h2>
-            Media <span>Coverage</span>
-          </h2>
+          <Media home />
+          <Button
+            className={styles.readMore}
+            onClick={() => router.push("/media")}
+          >
+            Read More
+          </Button>
         </Row>
 
         <Row className={`${styles.media} px-2 px-md-0`}>
@@ -634,7 +639,7 @@ const HomePage = () => {
                   rel="noreferrer"
                 >
                   support@cardse.co
-                </a>
+                </a>{" "}
                 for further assistance.
               </p>
             </div>
@@ -642,8 +647,7 @@ const HomePage = () => {
               <Button onClick={() => redirect()}>Need Help</Button>
               <Button
                 className={styles.contactButton}
-                as="a"
-                href="tel:+91-9513631546"
+                onClick={() => router.push("/contact")}
               >
                 Contact Us
               </Button>

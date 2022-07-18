@@ -247,9 +247,7 @@ const faqs = () => {
               Our Call center is available from Monday to Saturday 9:30 A.M. to
               6:30 P.M.
               <br />
-              <Button tag="a" href="tel:01149898545">
-                Call Us
-              </Button>
+              <a href="tel:+91-9513631546">+91-9513631546</a>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

@@ -15,6 +15,9 @@ const Routings = () => {
             <Link href="/careers">Careers</Link>
           </Nav>
           <Nav className={styles.navbar}>
+            <Link href="/media">Media</Link>
+          </Nav>
+          <Nav className={styles.navbar}>
             <Link href="/faqs">FAQs</Link>
           </Nav>
           <Nav className={styles.navbar}>
