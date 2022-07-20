@@ -123,7 +123,7 @@ const Careers = () => {
           <h2>Open Positions</h2>
           <h5>We’re Building A Culture Of Curiosity And Learning. You In?</h5>
           <ul className={`${styles.open} d-grid`}>
-            <li>
+            <li className="wow fadeIn">
               <h3>iOS Developer</h3>
               <p>
                 As an iOS Developer, you will work closely with the backend
@@ -145,7 +145,7 @@ const Careers = () => {
                 Download JD
               </Button>
             </li>
-            <li>
+            <li className="wow fadeIn">
               <h3>SENIOR FULL STACK DEVELOPER</h3>
               <p>
                 As a Full Stack Developer, you will work closely with the
@@ -160,7 +160,7 @@ const Careers = () => {
               </p>
               <Button>Download JD</Button>
             </li>
-            <li>
+            <li className="wow fadeIn">
               <h3>SALES HEAD</h3>
               <p>
                 We are looking for a Sales Head who can drive merchant
@@ -178,7 +178,7 @@ const Careers = () => {
               </p>
               <Button>Download JD</Button>
             </li>
-            <li>
+            <li className="wow fadeIn">
               <h3>DEVOPS ENGINEER</h3>
               <p>
                 Excellent knowledge of Linux administration.  • Experience in
@@ -194,7 +194,7 @@ const Careers = () => {
               </p>
               <Button>Download JD</Button>
             </li>
-            <li>
+            <li className="wow fadeIn">
               <h3>FIELD SALES EXECUTIVES</h3>
               <p>
                 We are looking for a Field Sales Executives who can drive

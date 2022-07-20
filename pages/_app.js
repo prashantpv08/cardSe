@@ -38,6 +38,15 @@ function MyApp({ Component, pageProps }) {
     });
   };
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.WOW = require("wowjs");
+    }
+    new WOW.WOW({
+      live: false,
+    }).init();
+  }, []);
+
   return (
     <>
       <Head>

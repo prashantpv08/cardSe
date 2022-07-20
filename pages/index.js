@@ -166,7 +166,13 @@ const HomePage = () => {
             </Col>
             <Col md={7} className="text-center">
               <span className={styles.banImg}>
-                <Image src={Banner} width={506} height={650} alt="Banner" />
+                <Image
+                  className={styles.imgHover}
+                  src={Banner}
+                  width={506}
+                  height={650}
+                  alt="Banner"
+                />
               </span>
             </Col>
             <svg className="arrows">
@@ -187,7 +193,13 @@ const HomePage = () => {
           <Row className="align-items-center">
             <Col md={6}>
               <span>
-                <Image src={How} width={540} height={646} alt="How it works" />
+                <Image
+                  className="wow zoomInUp"
+                  src={How}
+                  width={540}
+                  height={646}
+                  alt="How it works"
+                />
               </span>
             </Col>
             <Col md={6}>
@@ -277,7 +289,7 @@ const HomePage = () => {
       <div className={styles.explore}>
         <Container>
           <Row className="align-items-center">
-            <Col md={7}>
+            <Col md={7} className="wow pulse">
               <h2>
                 Explore Multiple Payment Options to accept Card and QR Code
                 Payments
@@ -291,8 +303,10 @@ const HomePage = () => {
         </Container>
       </div>
       <Container className={`${styles.options} text-center px-2 px-md-0`}>
-        <h2>Payment Options</h2>
-        <ul className={`${styles.payOption} d-grid justify-content-between`}>
+        <h2 className="wow zoomIn">Payment Options</h2>
+        <ul
+          className={`${styles.payOption} d-grid justify-content-between wow zoomIn`}
+        >
           <li>
             <span>
               <Image src={Card} alt="" width={50} height={50} />
@@ -478,7 +492,7 @@ const HomePage = () => {
       <Container>
         <Row className={styles.about}>
           <Col md={4}>
-            <div className={styles.aboutBox}>
+            <div className={`${styles.aboutBox} wow zoomIn`}>
               <h2>MERCHANTS</h2>
               <h6>Join the CardSe family</h6>
               <p>
@@ -488,7 +502,7 @@ const HomePage = () => {
             </div>
           </Col>
           <Col md={4}>
-            <div className={`${styles.aboutBox} ${styles.red}`}>
+            <div className={`${styles.aboutBox} wow zoomIn ${styles.red}`}>
               <h2>START-UPS</h2>
               <h6>White Label Solutions</h6>
               <p>
@@ -498,7 +512,7 @@ const HomePage = () => {
             </div>
           </Col>
           <Col md={4}>
-            <div className={styles.aboutBox}>
+            <div className={`${styles.aboutBox} wow zoomIn`}>
               <h2>MARKET OUTREACH</h2>
               <h6>Push your products to merchants</h6>
               <p>

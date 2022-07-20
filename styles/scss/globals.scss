@@ -39,12 +39,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background: $black;
-  color: $white;
-}
-
-button:hover {
-  background: $red;
+  background: $white;
+  color: $red;
 }
 
 .slick-slider .slick-track {
@@ -146,6 +142,16 @@ button:hover {
     animation-delay: 0s;
     -webkit-animation-delay: 0s; /* Safari 和 Chrome */
   }
+}
+
+.btn {
+  transform: scale(1);
+  transition: 0.6s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
 }
 
 @media (max-width: 1023px) {
